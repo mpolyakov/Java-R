@@ -28,7 +28,7 @@ public class Solution {
         PrintStream stream = new PrintStream(outputStream);
         System.setOut(stream);
         testString.printSomething();
-        String result = outputStream.toString();
+        String result = outputStream.toString(); //
         
         System.setOut(consoleStream);
         
